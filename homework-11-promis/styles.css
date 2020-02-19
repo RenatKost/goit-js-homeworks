@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: darksalmon;
+}
+
+p {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: rgb(95, 141, 22);
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, FreeSans, "Liberation Sans", "Nimbus Sans L", sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(245, 245, 245);
+    text-shadow: 0 -1px rgba(0, 0, 0, .1);
+    text-decoration: none;
+    user-select: none;
+    padding: .3em 1em;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #0C9C0D linear-gradient(#82D18D, #0C9C0D);
+    box-shadow: inset #72DE26 0 -1px 1px, inset 0 1px 1px #98FF98, #3CAA3C 0 0 0 1px, rgba(0, 0, 0, .3) 0 2px 5px;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+}
+
+button:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+button:active {
+    top: 1px;
+    color: #fff;
+    text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #ffd, 0 0 8px #fff;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, .3), 0 1px 1px #fff, inset 0 1px 2px rgba(0, 0, 0, .8), inset 0 -1px 0 rgba(0, 0, 0, .05);
+}
